@@ -1,0 +1,34 @@
+README
+
+MOEEZ ALI SYED
+
+This is a HoneyComb Word Search program. It finds all possible words in a honeycomb that are also contained in a dictionary and outputs them
+in alphabetical order.
+
+The files for the program are contained in the .zip file. The .zip file contains the following files:
+
+BuildHoneyComb.java		InputGen.class
+CellStructure.java		InputGen.java
+CombStructure.java		MyTrie.java
+Direction.java			Point.java
+HoneyCombWordSearch.java
+README
+
+HoneyCombWordSearch.java is main file for the program. It requires two arguments and outputs to stdout. 
+InputGen is a java file that takes one argument - the number of layers in the honeycomb, and generates a random .txt
+file that can be used to create a HoneyComb. This was used for testing. 
+
+Some benchmarks regarding testing are shown below:
+Each of these tests were done with a dictionary of ~ 45000 words
+The test benchmarks were carried out on a Linux Machine
+
+1. On 250 layered HoneyComb: ~ 2600 milliseconds
+2. On 500 layered HoneyComb: ~ 9000 milliseconds
+3. On 1000 layered HoneyComb: ~ 40000 milliseconds
+4. On 1500 layered HoneyComb: ~ 90526 milliseconds 
+
+In analysis, the algorithm takes, overall, O(n^2) in terms of time complexity in the number of layers. 
+
+The total amount of time taken for this assignment would be around 4/4.5 hours for the main programming and an additional hour and a half for optimizations, comment, and testing. 
+
+Thank you!
