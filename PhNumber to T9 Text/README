@@ -1,0 +1,8 @@
+This program takes a phone number (7-10 digits) and outputs all the 
+possible combinations of text that can be created from those digits 
+on a feature phone keyboard. 
+
+The program takes one argument - this is the phone number
+The program writes the output to stdout. 
+
+Thank you!
